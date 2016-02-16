@@ -65,6 +65,15 @@ angular.module('wpIonic', ['ionic','ionic.service.core', 'wpIonic.controllers', 
       }
     }
   })
+  .state('app.gatos', {
+    url: "/gatos",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/gatos.html",
+        controller: 'GatosCtrl'
+      }
+    }
+  })
 
   .state('app.bookmarks', {
     url: "/bookmarks",
