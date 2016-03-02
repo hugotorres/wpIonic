@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- config.xml reference: https://build.phonegap.com/docs/config-xml -->
 <widget xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" id="com.wpionic.app" version="1.0.0">
-   <name>perro callejero</name>
-   <description>perro callejero</description>
+   <name>PetRescue</name>
+   <description>petRescue</description>
    <author href="http://www.atcconsultoria.com/blog" email="hugotorreslinares@gmail.com">Hugo Torres</author>
 
 	<gap:platform name="ios" />

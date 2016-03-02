@@ -1,15 +1,12 @@
-
-<ion-view view-title="Perros">
-
-
+<ion-view view-title="Gatos">
   <ion-content>
   <ion-refresher on-refresh="doRefresh()"></ion-refresher>
 	<ion-list>
 		<ion-item class="item-icon-right" ng-repeat="post in posts track by $index" href="#/app/posts/{{post.id}}" track>
 			<!-- <img ng-if="post.featured_image" ng-src="{{post._embedded['http://v2.wp-api.org/attachment'][0][$index].source_url}}" class="alignleft" /> -->
-			<h2 ng-bind-html="post.title.rendered"></h2>
-			<img ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}">
-						<i class="icon ion-chevron-right icon-accessory"></i>
+			<img ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" style="border-radius:50%;max-height:40px;float:left;padding:5px;"><h2 ng-bind-html="post.title.rendered"></h2>
+			
+			<i class="icon ion-chevron-right icon-accessory"></i>
 		</ion-item>
 	</ion-list>
 

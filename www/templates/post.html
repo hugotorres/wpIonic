@@ -1,13 +1,19 @@
 <ion-view>
+<ion-view>
 	<ion-nav-title>
   {{::post.title.rendered}}
 	</ion-nav-title>
   <ion-content class="padding">
   <ion-refresher on-refresh="doRefresh()"></ion-refresher>
   	<div class="card post">
+
   		<div class="item post-title">
-  		<h2 ng-bind-html="post.title.rendered"></h2>
+
+  		<h2 ng-bind-html="post.title.rendered"></h2> 
   		</div>
+       <a class="item item-icon-left" href="#" ng-click="bookmarkItem(post.id)">
+          <i ng-class="{'icon ion-ios-star': bookmarked, 'icon ion-ios-star-outline': !bookmarked}"></i>
+        </a>
   		<div class="item item-body" ng-if="content" ng-bind-html="content | html_filters"></div>
     
 
@@ -16,6 +22,7 @@
           <i class="icon ion-forward"></i>
           Share
         </a>
+        <div class="col2"></div>
         <a class="tab-item" href="#" ng-click="bookmarkItem(post.id)">
           <i ng-class="{'icon ion-ios-star': bookmarked, 'icon ion-ios-star-outline': !bookmarked}"></i>
           Bookmark

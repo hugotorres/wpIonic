@@ -65,6 +65,15 @@ angular.module('wpIonic', ['ionic','ionic.service.core', 'wpIonic.controllers', 
       }
     }
   })
+  .state('app.gatos', {
+    url: "/gatos",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/gatos.html",
+        controller: 'GatosCtrl'
+      }
+    }
+  })
 
   .state('app.bookmarks', {
     url: "/bookmarks",
@@ -104,6 +113,15 @@ angular.module('wpIonic', ['ionic','ionic.service.core', 'wpIonic.controllers', 
       }
     }
   })
+    .state('app.acerca', {
+    url: "/acerca",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/acerca.html",
+        controller: 'AcercaCtrl'
+      }
+    }
+  })
 
   .state('app.settings', {
       url: "/settings",
@@ -114,5 +132,5 @@ angular.module('wpIonic', ['ionic','ionic.service.core', 'wpIonic.controllers', 
       }
     });
   // if none of the above states are matched, use this as the fallback
-  $urlRouterProvider.otherwise('/app/intro');
+  $urlRouterProvider.otherwise('/app/posts');
 });

@@ -1,6 +1,6 @@
-# wpIonic
+# petRescue
 
-A mobile app that uses the Ionic Framework, and integrates with WordPress through the WP-API.
+A mobile app that uses the Ionic Framework, and integrates with WordPress through the WP-API. and connects to a blog that publishes pets that need to be adopted
 
 Features:
 
