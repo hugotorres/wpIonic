@@ -70,7 +70,7 @@
 	<gap:splash src="res/screen/ios/screen-iphone6-plus-portrait.png" gap:platform="ios" width="1242" height="2208" />
 	<gap:splash src="res/screen/ios/screen-iphone6-plus-landscape.png" gap:platform="ios" width="2208" height="1242" />
 
-	<icon src="icon.png" />
+	<icon src="img/Animals-Dog.png" />
 	<content src="index.html" />
 	<access origin="*" subdomains="true" />
 	<access origin="mailto:*" launch-external="yes" />
