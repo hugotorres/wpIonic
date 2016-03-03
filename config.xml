@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <widget 
   id="co.perrocallejero.perrocallejero" 
-  version="9.4.1" 
+  version="41.4.1" 
   xmlns="http://www.w3.org/ns/widgets" 
   xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Perro callejero</name>
