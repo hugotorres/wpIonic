@@ -4,8 +4,8 @@
 	xmlns="http://www.w3.org/ns/widgets" 
 	xmlns:gap="http://phonegap.com/ns/1.0" 
 	id="co.perrocallejero.perrocallejero" 
-	version   = "41.41.41"
-	versionCode = "41">
+	version   = "42.41.41"
+	versionCode = "42">
    <name>Perro callejero</name>
    <description>aplicacion que permite visualizar los perros callejeros que estan disponibles para adopcion en la ciudad de Bogota</description>
    <author href="http://www.atcconsultoria.com/blog" email="hugotorreslinares@gmail.com">Hugo Torres</author>
