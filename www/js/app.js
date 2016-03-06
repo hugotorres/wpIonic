@@ -74,6 +74,15 @@ angular.module('wpIonic', ['ionic','ionic.service.core', 'wpIonic.controllers', 
       }
     }
   })
+  .state('app.lecturas', {
+    url: "/lecturas",
+    views: {
+      'menuContent': {
+        templateUrl: "templates/lecturas.html",
+        controller: 'LecturasCtrl'
+      }
+    }
+  })
 
   .state('app.bookmarks', {
     url: "/bookmarks",

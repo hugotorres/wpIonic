@@ -1,4 +1,4 @@
-<ion-view view-title="Gatos">
+<ion-view view-title="Lecturas">
   <ion-content>
   <ion-refresher on-refresh="doRefresh()"></ion-refresher>
 	<ion-list>
@@ -6,9 +6,11 @@
 			<!-- <img ng-if="post.featured_image" ng-src="{{post._embedded['http://v2.wp-api.org/attachment'][0][$index].source_url}}" class="alignleft" /> -->
 
 		<!--	<img ng-src="{{post.better_featured_image.media_details.sizes.thumbnail.source_url}}" style="border-radius:50%;max-height:40px;float:left;padding:5px;">-->
-<div class="imagenlista" style="background:url({{post.better_featured_image.media_details.sizes.thumbnail.source_url}});">
+<div class="imagenlecturas" style="background:url({{post.better_featured_image.media_details.sizes.thumbnail.source_url}});    height: 100px;
+    background-repeat: no-repeat;
+    background-size: cover;">
 </div>
-			<h2 ng-bind-html="post.title.rendered" class="titulo"></h2>
+			<h2 ng-bind-html="post.title.rendered" class="tituloLecturas"></h2>
 			
 			<i class="icon ion-chevron-right icon-accessory"></i>
 		</ion-item>

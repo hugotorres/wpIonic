@@ -19,7 +19,13 @@
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
 }
-
+.item h2 {
+    font-size:30px !important;
+}
+.imagenlista{height:170px;background-size:cover !important;background-repeat:no-repeat !important;  border-radius: 10px 10px 0px 0px;}
+.imagenLecturas{height:100px;background-size:cover !important;background-repeat:no-repeat !important;  border-radius: 10px 10px 0px 0px;}
+.tituloLecturas{background-color:white;color;black}
+.titulo{background-color:slategray;color:white;}
 .slide-content {
 	position: absolute;
 	top: 20px;
