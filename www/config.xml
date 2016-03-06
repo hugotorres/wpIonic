@@ -74,5 +74,7 @@
 	<access origin="*" subdomains="true" />
 	<access origin="mailto:*" launch-external="yes" />
 	<access origin="tel:*" launch-external="yes" />
+	<allow-intent href="*"/>
+	<allow-navigation href="*"/>
 
 </widget>
