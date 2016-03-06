@@ -17,13 +17,14 @@
 	<preference name="targetSdkVersion" value="14" />
 
 	<feature name="http://api.phonegap.com/1.0/device" />
-	<gap:plugin name="org.apache.cordova.device" />
-	<gap:plugin name="org.apache.cordova.splashscreen" />
-	<gap:plugin name="org.apache.cordova.inappbrowser" />
-	<gap:plugin name="org.apache.cordova.dialogs" />
-	<gap:plugin name="org.apache.cordova.vibration" />
-	<gap:plugin name="org.apache.cordova.network-information" />
-	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" />
+
+	<gap:plugin name="org.apache.cordova.device"  source="npm"/>
+	<gap:plugin name="org.apache.cordova.splashscreen" source="npm"/>
+	<gap:plugin name="org.apache.cordova.inappbrowser" source="npm"/>
+	<gap:plugin name="org.apache.cordova.dialogs" source="npm"/>
+	<gap:plugin name="org.apache.cordova.vibration" source="npm"/>
+	<gap:plugin name="org.apache.cordova.network-information" source="npm"/>
+	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" source="npm"/>
 	<gap:plugin name="com.phonegap.plugin.statusbar" />
 	<gap:plugin name="nl.x-services.plugins.socialsharing" />
 	<gap:plugin name="com.adobe.plugins.gaplugin" version="2.4.0" />

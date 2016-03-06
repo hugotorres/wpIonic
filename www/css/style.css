@@ -25,10 +25,14 @@
 .imagenlista{height:170px;background-size:cover !important;background-repeat:no-repeat !important;  border-radius: 10px 10px 0px 0px;}
 .imagenLecturas{height:100px;background-size:cover !important;background-repeat:no-repeat !important;  border-radius: 10px 10px 0px 0px;}
 .tituloLecturas{background-color:white;color;black}
+h2.tituloLecturas {
+    font-size: 16px !important;
+    overflow: visible;
+}
 .titulo{background-color:slategray;color:white;}
 .slide-content {
 	position: absolute;
-	top: 20px;
+	top: 60px;
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
