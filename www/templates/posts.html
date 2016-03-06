@@ -5,6 +5,7 @@
   <ion-content>
   <ion-refresher on-refresh="doRefresh()"></ion-refresher>
 	<ion-list>
+	 <div ng-show="posts.length == 0">Loading ...</div>
 		<ion-item class="item-icon-right" ng-repeat="post in posts track by $index" href="#/app/posts/{{post.id}}" track>
 			<!-- <img ng-if="post.featured_image" ng-src="{{post._embedded['http://v2.wp-api.org/attachment'][0][$index].source_url}}" class="alignleft" /> -->
 		

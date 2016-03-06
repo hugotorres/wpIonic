@@ -4,7 +4,7 @@
   version="1.2.3"
   xmlns="http://www.w3.org/ns/widgets" 
   xmlns:cdv="http://cordova.apache.org/ns/1.0"
-  versionCode="41">
+  versionCode="46">
   <name>Perro callejero</name>
   <icon src="img/Animals-Dog.png"/>
   <description>
