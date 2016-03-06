@@ -13,8 +13,8 @@
 .slider-slide {
   padding-top: 80px;
   color: #000;
-  background: url('../img/blurry-app-bg.png') no-repeat center top;
-  background-size: cover;
+ /* background: url('../img/blurry-app-bg.png') no-repeat center top;
+  background-size: cover;*/
   text-align: center;
   font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
   font-weight: 300;
@@ -29,7 +29,7 @@
 }
 
 .slide-content h3 {
-	color: #fff;
+	/*color: #fff;*/
 	margin-bottom: 40px;
 }
 
