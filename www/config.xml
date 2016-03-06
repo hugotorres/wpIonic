@@ -13,7 +13,7 @@
 	<gap:platform name="ios" />
 	<gap:platform name="android" />
 
-	<preference name="phonegap-version" value="3.7.0" />
+	<preference name="phonegap-version" value="cli-5.2.0" />
 	<preference name="targetSdkVersion" value="14" />
 
 	<feature name="http://api.phonegap.com/1.0/device" />
