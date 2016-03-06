@@ -25,9 +25,7 @@
 	<gap:plugin name="org.apache.cordova.vibration" source="npm"/>
 	<gap:plugin name="org.apache.cordova.network-information" source="npm"/>
 	<gap:plugin name="org.apache.cordova.camera" version="0.3.2" source="npm"/>
-	<gap:plugin name="nl.x-services.plugins.socialsharing" source="npm"/>
-	
-	<gap:plugin name="com.sharinglabs.cordova.plugin.cache" source="npm" />
+
 	<gap:plugin name="org.apache.cordova.file" source="npm" />
 	<gap:plugin name="org.apache.cordova.file-transfer"  source="npm" />
 
