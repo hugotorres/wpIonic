@@ -22,7 +22,7 @@
 
 .slide-content {
 	position: absolute;
-	bottom: 200px;
+	top: 20px;
 	width: 100%;
 	padding: 20px;
 	box-sizing: border-box;
