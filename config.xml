@@ -11,7 +11,7 @@
         Aplicacion para ayudar perros callejeros en la ciudad de bogota, Colombia, ayudemos a los perritos que necesitan ayuda, es importante adoptar y no comprar
     </description>
   <author email="hugotorreslinares@gmail.com" href="http://perrocallejero.co/">
-      Pet rescue app
+      Perro callejero
     </author>
   <content src="index.html"/>
   <access origin="*"/>
