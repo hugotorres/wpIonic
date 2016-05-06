@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"  standalone="yes"?>
 <widget 
   id="co.perrocallejero.perrocallejero" 
   version="1.2.3"
   xmlns="http://www.w3.org/ns/widgets" 
   xmlns:cdv="http://cordova.apache.org/ns/1.0"
-  versionCode="46">
+  versionCode="49">
   <name>Perro callejero</name>
   <icon src="img/Animals-Dog.png"/>
   <description>
-        Aplicacion para ayudar perros callejeros en la ciudad de bogota, Colombia, ayudemos a los perritos que necesitan ayuda, es importante adoptar y no comprar
+        Aplicacion para ayudar perros callejeros en la ciudad de Bogota, Colombia, ayudemos a los perritos que necesitan ayuda, es importante adoptar y no comprar,adicionalmente podemos encontrar lecturas y noticias relacionadas con la tenencia responsable de mascotas.
     </description>
   <author email="hugotorreslinares@gmail.com" href="http://perrocallejero.co/">
       Perro callejero
