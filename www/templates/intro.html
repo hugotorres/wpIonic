@@ -15,5 +15,26 @@
         </button>
       </div>
     </ion-slide>
+
+     <ion-slide>
+     <ion-header-bar class="bar-assertive">
+      <h1 class="title">Photos</h1>
+      </ion-header-bar>
+      <ion-content ng-controller="ExampleController" padding="true">
+      <hr><hr>
+         <br><br<br>
+      <hr>
+      <button class="button button-full button-assertive" ng-click="takePhoto()">
+      Take Photo
+      </button>
+      <button class="button button-full button-assertive" ng-click="choosePhoto()">
+      Choose Photo
+      </button><hr>
+        <img ng-show="imgURI !== undefined" ng-src="{{imgURI}}" style="text-align: center">
+    </ion-content>
+
+    </ion-slide>
   </ion-slide-box>
+
+
 </ion-view>
