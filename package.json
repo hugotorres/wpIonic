@@ -16,7 +16,8 @@
   },
   "cordovaPlugins": [
     "cordova-plugin-crosswalk-webview@1.2.0",
-    "cordova-plugin-whitelist"
+    "cordova-plugin-whitelist",
+    "cordova-plugin-device-motion"
   ],
   "cordovaPlatforms": []
 }
